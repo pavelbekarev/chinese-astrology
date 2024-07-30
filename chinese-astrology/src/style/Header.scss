@@ -66,8 +66,10 @@
 
 
     .header__h2 {
-        width: 15em;
+        max-width: 20em;
         color: #F9F8CF;
         font-size: 48px;
+        font-family: "Roboto-Medium";
+        letter-spacing: 5px;
     }
 }

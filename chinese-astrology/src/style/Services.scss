@@ -1,18 +1,27 @@
+@import "./stylesheet.scss";
+
+
 .services__wrapper {
     // background-color: #2A6453;
     
-    background: rgb(89,75,51);
-    background: linear-gradient(135deg, rgba(89,75,51,1) 12%, rgba(112,94,64,1) 37%, rgba(42,100,83,1) 63%, rgba(32,77,64,1) 88%);
+    // background: rgb(89,75,51);
+    // background: linear-gradient(135deg, rgba(89,75,51,1) 12%, rgba(112,94,64,1) 37%, rgba(42,100,83,1) 63%, rgba(32,77,64,1) 88%);
 
     // background: rgb(89,75,51);
-    // background: linear-gradient(135deg, rgba(89,75,51,1) 5%, rgba(112,94,64,1) 25%, rgba(42,100,83,1) 75%, rgba(32,77,64,1) 95%);
-    
+    // background: linear-gradient(135deg, rgba(89,75,51,1) 5%, rgba(32,77,64,1) 95%);
+
+    background: rgb(64,51,30);
+    background: linear-gradient(156deg, rgba(64,51,30,1) 30%, rgba(32,77,64,1) 95%);
+
+
 }
 
 .services__content {
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 70px;
+
 
     .services__h2 {
         margin: 3em auto;
@@ -36,9 +45,9 @@
         max-width: 370px;
 
         .service__item-image {
-            background-image: url("../../img/photo_2024-05-28_19-19-41.jpg") no-repeat;
-            background-size: cover;
-            background-position: center;
+            // background-image: url("../../img/love.jpg") no-repeat;
+            // background-size: cover;
+            // background-position: center;
             width: 100%;
             height: 100%;
         }
